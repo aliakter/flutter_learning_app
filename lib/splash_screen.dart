@@ -36,7 +36,7 @@ class _SplahScreenState extends State<SplashScreen> {
             ),
             CircularProgressIndicator(
               valueColor: AlwaysStoppedAnimation(
-                Colors.pink,
+                Colors.yellow,
               ),
             ),
             SizedBox(

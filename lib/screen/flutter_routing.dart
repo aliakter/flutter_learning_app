@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_app/screen_details.dart/navigation_routing.dart';
 
 class FlutterRouting extends StatefulWidget {
   const FlutterRouting({Key? key}) : super(key: key);
@@ -20,17 +21,24 @@ class _FlutterRoutingState extends State<FlutterRouting> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => NavigationRouting(),
+                    ),
+                  );
+                },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "1. Navigation & Routing",
+                      "Navigation & Routing",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

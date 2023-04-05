@@ -20,7 +20,7 @@ class _DifferencesState extends State<Differences> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -30,7 +30,7 @@ class _DifferencesState extends State<Differences> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "1. Flutter vs Xamarin",
+                      "Flutter vs Xamarin",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -46,7 +46,7 @@ class _DifferencesState extends State<Differences> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "2. Flutter vs Kotlin",
+                      "Flutter vs Kotlin",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -62,7 +62,7 @@ class _DifferencesState extends State<Differences> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "3. Flutter vs Ionic",
+                      "Flutter vs Ionic",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

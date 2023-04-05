@@ -25,9 +25,7 @@ void main() async {
         'splashscreen': (context) => SplashScreen(),
         // 'login': (context) => UserLogin(),
         // 'registration': (context) => UserRegistration(),
-        'homescreen': (context) => HomeScreen(
-              title: 'Flutter Learning',
-            ),
+        'homescreen': (context) => HomeScreen(title: 'Flutter Learning'),
         'introduction': (context) => Introduction(),
         'dart': (context) => Dart(),
         'basics': (context) => FlutterBasics(),

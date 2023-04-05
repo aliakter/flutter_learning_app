@@ -22,7 +22,7 @@ class _DartState extends State<Dart> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -34,7 +34,7 @@ class _DartState extends State<Dart> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "1. Dart Programming",
+                      "Dart Programming",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

@@ -25,7 +25,7 @@ class _IntroductionState extends State<Introduction> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -42,7 +42,7 @@ class _IntroductionState extends State<Introduction> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "1. Flutter Tutorial",
+                      "Flutter Tutorial",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -66,7 +66,7 @@ class _IntroductionState extends State<Introduction> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "2. Flutter Installation",
+                      "Flutter Installation",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -90,7 +90,7 @@ class _IntroductionState extends State<Introduction> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "3. First Application",
+                      "First Application",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -114,7 +114,7 @@ class _IntroductionState extends State<Introduction> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "4. Flutter Architecture",
+                      "Flutter Architecture",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -138,7 +138,7 @@ class _IntroductionState extends State<Introduction> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "5. Flutter vs React native",
+                      "Flutter vs React native",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

@@ -20,7 +20,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -30,7 +30,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "1. Flutter Widgets",
+                      "Flutter Widgets",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -47,7 +47,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "2. Flutter Layouts",
+                      "Flutter Layouts",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -64,7 +64,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "3. Flutter Gestures",
+                      "Flutter Gestures",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -81,7 +81,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "4. State Management",
+                      "State Management",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -98,7 +98,7 @@ class _FlutterBasicsState extends State<FlutterBasics> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "5. Flutter IDE",
+                      "Flutter IDE",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

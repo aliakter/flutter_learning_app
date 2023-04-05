@@ -20,7 +20,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -30,7 +30,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "1. Flutter Scaffold",
+                      "Flutter Scaffold",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -47,7 +47,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "2. Flutter Container",
+                      "Flutter Container",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -64,7 +64,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "3. Flutter Row & Column",
+                      "Flutter Row & Column",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -81,7 +81,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "4. Flutter Text",
+                      "Flutter Text",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -98,7 +98,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "5. Flutter TextField",
+                      "Flutter TextField",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -115,7 +115,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "6. Flutter Buttons",
+                      "Flutter Buttons",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -132,7 +132,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "7. Flutter Stack",
+                      "Flutter Stack",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -149,7 +149,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "8. Flutter Forms",
+                      "Flutter Forms",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -166,7 +166,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "9. Flutter AlertDialog",
+                      "Flutter AlertDialog",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -183,7 +183,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "10. Flutter Icons",
+                      "Flutter Icons",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -200,7 +200,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "11. Flutter Images",
+                      "Flutter Images",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -217,7 +217,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "12. Flutter Card",
+                      "Flutter Card",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -234,7 +234,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "13. Flutter Tabbar",
+                      "Flutter Tabbar",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -251,7 +251,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "14. Flutter Drawer",
+                      "Flutter Drawer",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -268,7 +268,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "15. Flutter Lists",
+                      "Flutter Lists",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -285,7 +285,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "16. Flutter GridView",
+                      "Flutter GridView",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -302,7 +302,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "17. Flutter Toast",
+                      "Flutter Toast",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -319,7 +319,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "18. Flutter Checkbox",
+                      "Flutter Checkbox",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -336,7 +336,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "19. Flutter Radio Button",
+                      "Flutter Radio Button",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -353,7 +353,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "20. Flutter Progress Bar",
+                      "Flutter Progress Bar",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -370,7 +370,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "21. Flutter Snackbar",
+                      "Flutter Snackbar",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -387,7 +387,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "22. Flutter Tooltip",
+                      "Flutter Tooltip",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -404,7 +404,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "23. Flutter Slider",
+                      "Flutter Slider",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -421,7 +421,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "24. Flutter Switch",
+                      "Flutter Switch",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -438,7 +438,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "25. Flutter Charts",
+                      "Flutter Charts",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -455,7 +455,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "26. Bottom Navigation Bar",
+                      "Bottom Navigation Bar",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -472,7 +472,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "27. Flutter Themes",
+                      "Flutter Themes",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -489,7 +489,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "28. Flutter Table",
+                      "Flutter Table",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -506,7 +506,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "29. Flutter Calendar",
+                      "Flutter Calendar",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -523,7 +523,7 @@ class _FlutterWidgetState extends State<FlutterWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      "30. Flutter Animation",
+                      "Flutter Animation",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,

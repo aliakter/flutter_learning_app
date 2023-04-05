@@ -20,7 +20,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding: const EdgeInsets.all(7.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -30,7 +30,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "1. Android Platform-Specific Code",
+                      "Android Platform-Specific Code",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -46,7 +46,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "2. Flutter Packages",
+                      "Flutter Packages",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -62,7 +62,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "3. Flutter Splash Screen",
+                      "Flutter Splash Screen",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -78,7 +78,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "4. Flutter Google Maps",
+                      "Flutter Google Maps",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -94,7 +94,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "5. Flutter Slivers",
+                      "Flutter Slivers",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -110,7 +110,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "6. Flutter REST API",
+                      "Flutter REST API",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -126,7 +126,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "7. Flutter Database",
+                      "Flutter Database",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
@@ -142,7 +142,7 @@ class _AdvancedConceptsState extends State<AdvancedConcepts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "8. Flutter Testing",
+                      "Flutter Testing",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.black,
